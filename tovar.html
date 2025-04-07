@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./nulstyle.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./tovar_main.css">
+    <link rel="stylesheet" href="./slick.css">
+    <title>Raftel</title>
+</head>
+<body>
+    <section class="box">
+        <header>
+            <div id="header_burgerMenu">
+                <span class="header_burgerMenu_line"></span>
+            </div>
+            <a href="./index.html">
+                <img class="logo" src="image/logo.png" alt="logo">
+            </a>
+            <div class="basket">
+                <svg 
+                    width="40" 
+                    height="40" 
+                    viewBox="0 0 24 24" 
+                    fill="none" 
+                    xmlns="http://www.w3.org/2000/svg"
+                    stroke="#a97b07" 
+                    stroke-width="1" 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round">
+                    <circle cx="9" cy="21" r="1" />
+                    <circle cx="20" cy="21" r="1" />
+                    <path d="M1 1h4l2.4 12.6a2 2 0 0 0 2 1.4h9.8a2 2 0 0 0 2-1.6l1.8-7.6H6" />
+                </svg>
+            </div>
+            <section id="window_menu">
+                <div id="window_menu_box">
+                    <div class="window_menu_box_list">
+                        <div id="window_menu_closed"></div>
+                        <div>
+                            <a href=""><p class="window_menu_box_list_link">Новинки</p></a>
+                            <a href=""><p class="window_menu_box_list_link">Сукні</p></a>
+                            <a href=""><p class="window_menu_box_list_link">Футболки, майки, топи</p></a>
+                            <a href=""><p class="window_menu_box_list_link">Блузи, рубашки</p></a>
+                            <a href=""><p class="window_menu_box_list_link">Світера, гольфи, худі</p></a>
+                            <a href=""><p class="window_menu_box_list_link">Кардигани, піджаки</p></a>
+                            <a href=""><p class="window_menu_box_list_link">Юбки</p></a>
+                            <a href=""><p class="window_menu_box_list_link">Брюки</p></a>
+                            <a href=""><p class="window_menu_box_list_link">Шорти</p></a>
+                            <a href=""><p class="window_menu_box_list_link">Костюми, комбінезони</p></a>
+                            <a href=""><p class="window_menu_box_list_link">Взуття</p></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section class="main_product">
+                <div class="product-container">
+                <div class="main-image">
+                  <img id="main-image" src="./image/emp.jpg" alt="Product Image">
+                </div>
+                <div class="thumbnail-images">
+                  <img class="thumbnail" src="./image/emp.jpg" alt="Thumbnail 1" onclick="changeImage('/image/emp.jpg')">
+                  <img class="thumbnail" src="./image/ex.jpg" alt="Thumbnail 2" onclick="changeImage('/image/ex.jpg')">
+                  <img class="thumbnail" src="./image/example.jpg" alt="Thumbnail 3" onclick="changeImage('/image/example.jpg')">
+                  <img class="thumbnail" src="./image/slider.jpg" alt="Thumbnail 4" onclick="changeImage('/image/slider.jpg')">
+                  <img class="thumbnail" src="./image/emp.jpg" alt="Thumbnail 5" onclick="changeImage('/image/emp.jpg')">
+                </div>
+                </div> 
+                <div class="info-container">
+                <h2>Сукня з оборками</h2>
+                <div class="slider_tovar">
+                    <div class="slider_boxik">
+                        <img src="./image/emp.jpg" alt="">
+                    </div>
+                    <div class="slider_boxik">
+                        <img src="./image/ex.jpg" alt="">
+                    </div>
+                    <div class="slider_boxik">
+                        <img src="./image/example.jpg" alt="">
+                    </div>
+                </div>
+                    <p class="article">Артикул:666666</p>
+                    <div class="info-container_price">
+                        <h3>666 грн</h3>
+                        <h4><s>1299 грн</s></h4>
+                    </div>
+                    <nav class="info-container_underline"></nav>
+                    <h5>Оберіть колір</h5>
+                    <div class="color">
+                        <button>Чорний</button>
+                        <button>Червоний</button>
+                        <button>Рожевий</button>
+                        <button>Жовтий</button>
+                        <button>Синій</button>
+                    </div>
+                    <h5>Розмір</h5>
+                    <div class="size">
+                        <button>S</button>
+                        <button>M</button>
+                        <button>L</button>
+                        <button>XL</button>
+                    </div>
+                    <div class="quantity-selector">
+                        <button class="minus-btn">-</button>
+                        <span id="quantity">1</span>
+                        <button class="plus-btn">+</button>
+                    </div>
+                    <div class="box_buy">
+                        <button class="buy">Придбати</button>
+                    </div>
+                <nav class="info-container_underline"></nav>
+                <h5>Опис</h5>
+                <p class="describe">О.Г-112.,довжина-105 <br>
+                    Бедра вільно.<br>
+                    ✅52-54<br>
+                    О.Г-120.,довжина-105<br>
+                    Бедра вільно.<br>
+                    ✅56-58<br>
+                    О.Г-130.,довжина -105<br>
+                    Бедра вільно.<br>
+                </p>
+                <p class="describe_t">✅Тканина:Турецкий штапель.Дуже легка, натуральна,<br> 
+                    приємна на дотик тканина.Пропускає повітря,дихаючи<br>
+                    тканина саме те що потрібно у спекотну погоду.
+                </p>
+                </div>
+            </section>                 
+        </main>
+
+    </section>
+</body>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="./window menu.js"></script>
+<script src="./input.js"></script>
+<script src="./slick.min.js"></script>
+<script src="./slick_tovar.js"></script>
+</html>
